@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+	margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+	margin-top: 1rem;
+}
+
+.top input {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.bar-buttons {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar-buttons button {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #2196F3;
+    padding: 5px 1.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.jobs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    height: 700px;
+    width: 360px;
+    overflow-y: auto;
+}
+
+.job {
+	position: relative;
+    width: 300px;
+	height: 200px;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.job-web {
+    font-size: 1.425rem;
+    line-height: 1.5rem;
+    margin: 0;
+    color: #2d2d2d;
+    letter-spacing: -0.06px;
+    font-weight: 600;
+}
+
+.jobs-job-range {
+
+}
+
+.jobs-job-range p {
+    font-size: 19px;
+}
+
+.jobs-job-count-company {
+
+}
+
+.jobs-job-count-company p {
+    font-size: 19px;
+}
+
+.jobs-job-belongs-company {
+
+}
+
+.jobs-job-belongs-company p {
+    font-size: 19px;
+}
+
+.job-clicked {
+	width: 400px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 2rem;
+    margin-top: 5rem;
+    overflow-y: auto;
+}
+
+.job-clicked-link {
+    font-size: 25px;
+    letter-spacing: -0.3px;
+	text-decoration: none;
+}
+
+.job-clicked-web-data {
+    display: flex;
+    gap: 1rem;
+}
+
+.job-clicked-web-data div {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-clicked-web-data div p {
+	font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.job-clicked-visitors {
+
+}
+
+.job-clicked-visitors p {
+
+}
+
+.job-clicked-resumes {
+
+}
+
+.job-clicked-resumes p {
+
+}
+
+.job-clicked-ratings {
+
+}
+
+.job-clicked-ratings p {
+	
+}
+
+.job-clicked-web-about {
+	font-size: 17px;
+    text-align: center;
+}

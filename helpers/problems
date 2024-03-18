@@ -1,0 +1,26 @@
+const getTitles = async (search) => {
+
+    // const data = await linkTagModel.find({ tag : { $in : search } }).exec()
+
+    // const titles = data.map((item) => {
+    //     return item.title;
+    // })
+
+    // const check = {};
+
+    // titles.map((id) => {
+        
+    //     if(id in check) {
+    //         check[id] = check[id] + 1 ;
+    //     } else {
+    //         check[id] = 1;
+    //     }
+
+    // })
+
+
+    return {};
+
+}
+
+
